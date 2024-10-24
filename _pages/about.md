@@ -16,6 +16,6 @@ social: false # includes social icons at the bottom of the page
 ---
 Hi!
 
-I'm currently in my fourth and last year at École Polytechnique, following the [MVA](https://www.master-mva.com) master's program. 
+I'm currently in my fourth and last year at École Polytechnique, enrolled in the [MVA](https://www.master-mva.com) master's program. 
 
 Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
