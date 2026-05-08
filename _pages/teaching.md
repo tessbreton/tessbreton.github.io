@@ -2,14 +2,26 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+<!-- description: Course materials, schedules, and resources for classes taught. -->
+
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 5
+calendar: false
 ---
+**2025-2026**
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+* Travaux Dirigés: [Mathématiques et Calcul 1](https://qdenoyelle.github.io/MC1/index.html), Licence 1, Université Paris-Cité
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+  Sujets et corrigés d'interrogations:
 
-{% include courses.liquid %}
+  * [Fonctions, limites et continuité](/assets/pdf/teaching/MC1/interro_fonctions_limites.pdf)
+  * [Suites](/assets/pdf/teaching/MC1/interro_suites.pdf)
+
+* Travaux Dirigés et Travaux Pratiques: [Introduction aux statistiques](https://helios2.mi.parisdescartes.fr/~chambaz/index.php?choix=2), Licence 2, Université Paris-Cité
+
+<br>
+
+
+**2023-2024**
+
+* Tutorat: [Asymptotic Statistics](https://moodle.polytechnique.fr/enrol/index.php?id=17306), Licence 3, École Polytechnique

@@ -186,20 +186,23 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - books.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
+  - dropdown.md
   - FAQ.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
   - lighthouse_results/
+  - news.md
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - publications.md
   - purgecss.config.js
   - README.md
   - readme_preview/
