@@ -79,8 +79,8 @@ html[data-theme="dark"] {
   --global-hover-color: #{v.$myhovercolor-dark};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$footer-bg-color-dark};
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
+  --global-footer-text-color: #{v.$white-color};
+  --global-footer-link-color: #{v.$mycolor-light};
   --global-distill-app-color: #{v.$grey-color-light};
   --global-divider-color: rgba(39, 48, 86, 0.642);
   --global-card-bg-color: #{v.$grey-900};
