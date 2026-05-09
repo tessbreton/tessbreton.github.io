@@ -1,101 +1,194 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Tess Breton
-    - name: Languages
-      value: French (native), English (C2), German (B2-C1), Spanish (B1)
+cv:
+  name: Tess Breton
+  label: PhD Candidate
+  email: tess.breton**no-spam**at**math.cnrs.fr
+  location: Paris, France
+  image: ""
+  # summary: 
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: Université Paris-Cité (MAP5) and Inria Montpellier (PreMedical) - France
-      year: 2026-present
-      description: 
-        - Supervised by Antoine Chambaz and Julie Josse, and Geneviève Robin
-        - Causal inference, Interpretability and Conformal Prediction
-        - Collaborating with clinicians to better understand treatment response heterogeneity in diverse settings
-    - title: MVA Master
-      institution: École Normale Supérieure Paris-Saclay - France
-      year: 2024-2025
-      description: 
-        - First semester courses, Convex Optimization, Computational Statistics, Probabilistic Graphical Models, Reinforcement Learning, Geometric Data Analysis, Optimal Transport and Object Recognition
-    - title: Cycle Ingénieur
-      institution: École Polytechnique - Palaiseau, France
-      year: 2021-2025
-      description:
-        - Specialized in Applied Mathematics
-        - Courses in Statistics, Machine Learning, Operations Research...
-        - "GPA: 3.94/4.0"
-    - title: Classe Préparatoire MPSI-MP*
-      institution: Lycée Louis Le Grand - Paris, France
-      year: 2019-2021
-      description: Intensive two-year high-level program to prepare for the competitive entrance
+  social_networks:
+    - network: GitHub
+      username: tessbreton
+    - network: LinkedIn
+      username: tessbreton
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Teaching Assistant
-      institution: Université Paris-Cité - France
-      year: 2025
-    - title: Research Intern
-      institution: Owkin, Frontier Research Team - Paris, France
-      year: 2025
-      description: 
-        - Prediction of patient chemotherapy response from baseline gene expression profiles using models trained on pre-clinical data. 
-        - Worked on bulk, single-cell and spatial RNA-sequencing data from the MOSAIC initiative.
-    - title: Research Intern
-      institution: Columbia University, Herbert and Florence Irving Institute for Cancer Dynamics (IICD) - New York, United States
-      year: 2024
-      description: 
-        - Research internship supervised by Simon Tavaré and Khanh Dinh. 
-        - Mathematical modeling and simulation of ecDNA dynamics in cancer cell populations. 
-        - Moran process with selective pressure, ABC inference. Python code available on GitHub.
-    - title: R&D Intern
-      year: 2023
-      description: 
-        - Worked on evaluating the robustness of a Deep Learning algorithm for lung nodule detection and segmentation. 
-        - CT scan images
-        - Python code
+  address:
+    street: 45 rue des Saints-Pères
+    city: Paris
+    # region: California
+    postalCode: 75006
+    countryCode: FR
 
-    - title: "Tutor"
-      institution: École Polytechnique - Palaiseau, France
-      year: 2023
-      description: Tutoring third-year Bachelor students in Asymptotic Statistics.
-        
+  sections:
+    Education:         
+      - institution: Université Paris-Cité
+        location: Paris, France
+        url: https://u-paris.fr
+        area: Statistics
+        studyType: PhD
+        start_date: 2025
+        end_date: 2028
+        # score: ""
+        # courses: "Theory of Relativity"
+        highlights:
+          - Supervised by Antoine Chambaz and Julie Josse, and Geneviève Robin
+          - Causal inference, Interpretability and Conformal Prediction
+          - Collaborating with clinicians to better understand treatment response heterogeneity in diverse settings
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 2019
-#       items: 
-#         - EPSRC Excellence Award. Doctorate scholarship.
-#     - year: 2017
-#       items: 
-#         - Amsterdam Science Talent Scholarship for MSc. One of five recipients.
-#     - year: 2016
-#       items: 
-#         - Gibbs Prize for "outstanding academic achievement" in final year of MMath.
-#         - Gibbs Dissertation Prize for MMath dissertation.
-#     - year: 2015
-#       items:
-#         - EPSRC Vacation Bursary. Support for summer research project.
+      - institution: ENS Paris-Saclay
+        location: Palaiseau, France
+        area: Master 2 MVA
+        url: https://www.master-mva.com
+        studyType: Masters
+        start_date: 2024
+        end_date: 2025
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
+      - institution: École Polytechnique
+        location: Palaiseau, France
+        area: Applied Mathematics
+        studyType: Cycle Ingénieur
+        start_date: 2021
+        end_date: 2025
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hiking, Drawing, Piano, Singing.
-    - <u>Volunteering:</u> Volunteer tutor at Secours Populaire de Paris, since October 2025.
+    Experience:
+      - company: Université Paris-Cité
+        position: Teaching Assistant
+        location: Paris, France
+        start_date: 2025
+        end_date: 2028
+
+      - company: Owkin, Frontier Research Team
+        position: Research Intern
+        location: Paris, France
+        summary: Prediction of patient chemotherapy response from baseline gene expression profiles using models trained on pre-clinical data. Worked on bulk, single-cell and spatial RNA-sequencing data from the MOSAIC initiative.
+        start_date: 2025
+        end_date: 2025
+
+      - company: Columbia University, Herbert and Florence Irving Institute for Cancer Dynamics (IICD)
+        position: Research Intern
+        location: New York, United States
+        summary: Research internship supervised by Simon Tavaré and Khanh Dinh. Mathematical modeling and simulation of ecDNA dynamics in cancer cell populations. Moran process with selective pressure, ABC inference. Python code available on GitHub.
+        start_date: 2024
+        end_date: 2024
+
+      - company: GE HealthCare
+        position: R&D Intern
+        location: Buc, France
+        start_date: 2023
+        end_date: 2023
+        highlights:
+          - Worked on evaluating the robustness of a Deep Learning algorithm for lung nodule detection and segmentation. 
+          - CT scan images.
+
+      - company: École Polytechnique
+        position: Tutor
+        location: Palaiseau, France
+        start_date: 2023
+        end_date: 2023
+        summary: Tutoring third-year Bachelor students in Asymptotic Statistics.
+
+    Volunteer:
+      - company: Secours Populaire de Paris
+        position: Academic Tutor
+        location: Paris, France
+        start_date: 2025
+        end_date: 2025
+
+    # Awards:
+    #   - title: Nobel Prize in Physics
+    #     authors:
+    #       - "Royal Swedish Academy of Sciences"
+    #     date: 1921-11-01
+    #     awarder: Royal Swedish Academy of Sciences
+    #     url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #     summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+
+    #   - title: Max Planck Medal
+    #     authors:
+    #       - "German Physical Society"
+    #     date: 2029
+    #     awarder: German Physical Society
+    #     summary: Awarded for outstanding scientific achievement
+
+    # Publications:
+    #   - title: Zur Elektrodynamik bewegter Körper
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-06-30
+    #     url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+    #     summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+
+    #   - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-03-18
+    #     url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+    #     summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+
+    #   - title: Die Grundlage der allgemeinen Relativitätstheorie
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1916-03-20
+    #     url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+    #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+
+    # Skills:
+    #   - name: Physics
+    #     level: Master
+    #     icon: fa-solid fa-hashtag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+    Languages:
+      - name: French
+        summary: "Native speaker"
+
+      - name: English
+        summary: "C2"
+
+      - name: German
+        summary: "B2-C1"
+
+      - name: Spanish
+        summary: "B1"
+
+    Interests
+      - name: Hobbies
+        keywords: "Hiking, Drawing, Piano, Singing"
+        # icon: fa-solid fa-tag
+    
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
+
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
+
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
+
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
+
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
