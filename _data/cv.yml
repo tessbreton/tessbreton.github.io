@@ -154,7 +154,7 @@ cv:
       - name: Spanish
         summary: "B1"
 
-    Interests
+    Interests:
       - name: Hobbies
         keywords: "Hiking, Drawing, Piano, Singing"
         # icon: fa-solid fa-tag
