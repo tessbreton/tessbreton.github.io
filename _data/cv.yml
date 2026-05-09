@@ -1,10 +1,10 @@
 cv:
   name: Tess Breton
   label: PhD Candidate
-  email: tess.breton**no-spam**at**math.cnrs.fr
+  email: tess.breton@nospam.math.cnrs.fr
   location: Paris, France
   image: ""
-  # summary: 
+  summary: PhD Candidate in Statistics
 
   social_networks:
     - network: GitHub
