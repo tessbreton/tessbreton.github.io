@@ -144,7 +144,7 @@ pagination:
         <a href="{{ year | prepend: '/blog/' | relative_url }}">
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
 
-          {% if tags != "" %}
+          <!-- {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
@@ -164,7 +164,7 @@ pagination:
                 &nbsp;
               {% endunless %}
               {% endfor %}
-          {% endif %}
+          {% endif %} -->
     </p>
 
 {% if post.thumbnail %}
