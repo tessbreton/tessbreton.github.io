@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 <!-- description: Course materials, schedules, and resources for classes taught. -->
 
 nav: true
@@ -17,7 +17,7 @@ calendar: false
   * [Fonctions, limites et continuité](/assets/pdf/teaching/MC1/interro_fonctions_limites.pdf)
   * [Suites](/assets/pdf/teaching/MC1/interro_suites.pdf)
 
-<br>
+<div style="height:0.5em;"></div>
 
 * Travaux Dirigés et Travaux Pratiques: [Introduction aux statistiques](https://helios2.mi.parisdescartes.fr/~chambaz/index.php?choix=2), Licence 2, Université Paris-Cité
 
